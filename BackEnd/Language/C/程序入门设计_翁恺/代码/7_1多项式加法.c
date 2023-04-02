@@ -33,8 +33,8 @@ int main(int argc, char const *argv[])
 	// maxpower = power;
 	while( count < 2 )
 	{
-		scanf("%d %d", &power, &factor);
-		polynomial[power] += factor;
+		scanf("%d %d", &power, &factor);	
+		polynomial[power] += factor;	
 		if ( power == 0 )
 		{
 			count++;
